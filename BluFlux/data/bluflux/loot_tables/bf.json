@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:612243,gui:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "BF : ",
+                "italic": false,
+                "extra": [
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "storedFlux"
+                    },
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": " / ",
+                        "extra": [
+                          {
+                            "score": {
+                              "name": "@s",
+                              "objective": "maxFlux"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

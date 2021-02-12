@@ -1,0 +1,2 @@
+function blufluxex:blocks/coalgenerator
+function blufluxex:blocks/lavamaker
